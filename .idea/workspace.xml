@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="358efd2e-3b4b-452c-ba3b-1063b09ae7ca" name="Changes" comment="adding frist two GUI elements (START and STOP) and related functions">
+    <list default="true" id="358efd2e-3b4b-452c-ba3b-1063b09ae7ca" name="Changes" comment="Added frame for centering and alignment">
+      <change afterPath="$PROJECT_DIR$/text_data.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -92,7 +93,14 @@
       <option name="presentableId" value="LOCAL−00003" />
       <updated>1789237983685</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL−00004" summary="Added frame for centering and alignment">
+      <option name="closed" value="true" />
+      <created>1789241108876</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1789241108876</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,6 +110,7 @@
     <MESSAGE value="First commit, has empty main and description of project in readme.txt" />
     <MESSAGE value="Initial setup of GUI" />
     <MESSAGE value="adding frist two GUI elements (START and STOP) and related functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding frist two GUI elements (START and STOP) and related functions" />
+    <MESSAGE value="Added frame for centering and alignment" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added frame for centering and alignment" />
   </component>
 </project>
