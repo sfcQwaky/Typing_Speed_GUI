@@ -4,6 +4,10 @@ from tkinter import *
 window = Tk()
 window.title("Speed typing checker")
 window.geometry("500x500")
+window.configure(padx=20, pady=20)
+
+frame = Frame(window)
+frame.place(relx=0.5, rely=0.1, anchor="center")
 
 #generate_text will generate text and start the timer
 def generate_text():
@@ -17,15 +21,17 @@ def stop_timer():
 
 #GUI elements
     #first row
-btn_start = Button(text="START", width=20, command=generate_text)
-btn_start.grid(row=0, column=0)
+btn_start = Button(frame,text="START", width=20, command=generate_text)
+btn_start.grid(row=0, column=0, pady=(0,10))
+#btn_start.config(padx=20, pady=20)
 
-btn_stop = Button(text="STOP", width=20, command=stop_timer)
-btn_start.grid(row=0, column=1)
+btn_stop = Button(frame, text="STOP", width=20, command=stop_timer)
+btn_stop.grid(row=0, column=2, pady=(0,10))
+#btn_stop.config(padx=20, pady=20)
 
     #second row
-
-
+input = Entry(frame, width=60)
+input.grid(row=1, column=0, columnspan=3)
 
 
 window.mainloop()
