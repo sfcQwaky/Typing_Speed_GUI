@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="358efd2e-3b4b-452c-ba3b-1063b09ae7ca" name="Changes" comment="First commit, has empty main and description of project in readme.txt" />
+    <list default="true" id="358efd2e-3b4b-452c-ba3b-1063b09ae7ca" name="Changes" comment="Initial setup of GUI">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +20,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "sfcQwaky"
+  }
+}]]></component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/sfcQwaky/Typing_Speed_GUI.git",
@@ -68,7 +77,14 @@
       <option name="presentableId" value="LOCAL−00001" />
       <updated>1789236238000</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL−00002" summary="Initial setup of GUI">
+      <option name="closed" value="true" />
+      <created>1789236425397</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1789236425397</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -76,6 +92,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit, has empty main and description of project in readme.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit, has empty main and description of project in readme.txt" />
+    <MESSAGE value="Initial setup of GUI" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial setup of GUI" />
   </component>
 </project>
