@@ -9,6 +9,7 @@ window.title("Speed typing checker")
 window.geometry("500x500")
 window.configure(padx=20, pady=20)
 
+    #frame is helping me center stuff
 frame = Frame(window)
 frame.place(relx=0.5, rely=0.4, anchor="center")
 
