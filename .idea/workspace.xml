@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="358efd2e-3b4b-452c-ba3b-1063b09ae7ca" name="Changes" comment="Added third row, wrapped the words, realigned frame padding, text data.py, all is looking good">
+    <list default="true" id="358efd2e-3b4b-452c-ba3b-1063b09ae7ca" name="Changes" comment="- minor updates to comments&#10;-">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/text_data.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +115,14 @@
       <option name="presentableId" value="LOCAL−00006" />
       <updated>1789244089196</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL−00007" summary="Updates to readme file for 2nd day of project">
+      <option name="closed" value="true" />
+      <created>1789279728304</created>
+      <option name="number" value="LOCAL−00007" />
+      <option name="presentableId" value="LOCAL−00007" />
+      <updated>1789279728304</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +135,7 @@
     <MESSAGE value="Added frame for centering and alignment" />
     <MESSAGE value="Added third row, wrapped the words, realigned frame padding, allis looking good" />
     <MESSAGE value="Added third row, wrapped the words, realigned frame padding, text data.py, all is looking good" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added third row, wrapped the words, realigned frame padding, text data.py, all is looking good" />
+    <MESSAGE value="Updates to readme file for 2nd day of project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updates to readme file for 2nd day of project" />
   </component>
 </project>

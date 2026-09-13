@@ -1,8 +1,9 @@
 ---     PROJECT OVERVIEW        ---
 
-- hmm project for checking speed typing
-- it should be GUI
+- GUI project for checking speed typing
 
+
+---     DESIGN PROCESS        ---
 
 - INITIAL IDEAS
 
