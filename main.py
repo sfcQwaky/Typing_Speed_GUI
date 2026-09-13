@@ -27,7 +27,7 @@ def start_func():
     input.focus()
 
     #timer start
-    TICKS = 15
+    TICKS = 60
     timer_value.config(text=str(TICKS))
     timer_func(TICKS)
 
@@ -60,6 +60,8 @@ def word_count():
     messagebox.showinfo("Word Count", f"You managed to enter: {word_count}")
     timer_value.config(text=f"Score was: {word_count}")
     timer_value.grid(row=4, column=0, pady=(10,0), columnspan=2)
+
+    input.delete(0, END)
 
 
 #-----------------------------------------------#
