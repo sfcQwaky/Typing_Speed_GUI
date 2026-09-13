@@ -57,7 +57,7 @@ def word_count():
     for word in written_text.split():
         word_count += 1
 
-    messagebox.showinfo("Word Count", f"You managed to enter: {word_count}")
+    messagebox.showinfo("Word Count", f"You managed to type in {word_count} words during 60 seconds")
     timer_value.config(text=f"Score was: {word_count}")
     timer_value.grid(row=4, column=0, pady=(10,0), columnspan=2)
 
