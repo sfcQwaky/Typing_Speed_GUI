@@ -1,7 +1,9 @@
 from tkinter import *
 from random import randint
 from text_data import temp_list
+import time
 
+TICKS = 0
 
 #initial setup of GUI
 window = Tk()
@@ -13,7 +15,7 @@ window.configure(padx=20, pady=20)
 frame = Frame(window)
 frame.place(relx=0.5, rely=0.5, anchor="center")
 
-#------------ FUNCTIONS -----------------
+#------------ FUNCTIONS ------------#
 #start_func will generate text and start the timer
 def start_func():
     #mechanic for removing and adding text
@@ -21,8 +23,18 @@ def start_func():
     text_box.delete("1.0", "end")
     text_box.insert("1.0",temp_list[i])
 
-    #timer stuff
+    #timer start
+    global TICKS
+    TICKS = 60
+    timer_value.config(text=str(TICKS))
+    timer_func(TICKS)
 
+def timer_func(count_sec):
+    if count_sec >=0:
+        timer_value.config(text=f"{count_sec:02d}")
+        timer_value.after(1000, timer_func, count_sec - 1)
+    else:
+        timer_value.config(text=f"Score was:")
 
 #stop_func will stop the timer, call the word counter function
 def stop_func():
@@ -34,7 +46,7 @@ def word_count():
 
     pass
 
-#-----------------------------------------------
+#-----------------------------------------------#
 
 #GUI elements
     #first row
