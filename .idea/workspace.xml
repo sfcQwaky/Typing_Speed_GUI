@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="358efd2e-3b4b-452c-ba3b-1063b09ae7ca" name="Changes" comment="- minor updates to comments&#10;- added 4th and 5th row of GUI (timer label and value)">
+    <list default="true" id="358efd2e-3b4b-452c-ba3b-1063b09ae7ca" name="Changes" comment="- essential timer function added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -127,7 +127,14 @@
       <option name="presentableId" value="LOCAL−00008" />
       <updated>1789286766072</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL−00009" summary="- essential timer function added">
+      <option name="closed" value="true" />
+      <created>1789288209543</created>
+      <option name="number" value="LOCAL−00009" />
+      <option name="presentableId" value="LOCAL−00009" />
+      <updated>1789288209543</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,6 +149,7 @@
     <MESSAGE value="Added third row, wrapped the words, realigned frame padding, text data.py, all is looking good" />
     <MESSAGE value="Updates to readme file for 2nd day of project" />
     <MESSAGE value="- minor updates to comments&#10;- added 4th and 5th row of GUI (timer label and value)" />
-    <option name="LAST_COMMIT_MESSAGE" value="- minor updates to comments&#10;- added 4th and 5th row of GUI (timer label and value)" />
+    <MESSAGE value="- essential timer function added" />
+    <option name="LAST_COMMIT_MESSAGE" value="- essential timer function added" />
   </component>
 </project>

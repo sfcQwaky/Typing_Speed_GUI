@@ -1,9 +1,10 @@
 from tkinter import *
 from random import randint
+from tkinter import messagebox
 from text_data import temp_list
-import time
 
-TICKS = 0
+timer = None
+
 
 #initial setup of GUI
 window = Tk()
@@ -16,35 +17,50 @@ frame = Frame(window)
 frame.place(relx=0.5, rely=0.5, anchor="center")
 
 #------------ FUNCTIONS ------------#
+
 #start_func will generate text and start the timer
 def start_func():
     #mechanic for removing and adding text
     i = randint(0,len(temp_list)-1)
     text_box.delete("1.0", "end")
     text_box.insert("1.0",temp_list[i])
+    input.focus()
 
     #timer start
-    global TICKS
-    TICKS = 60
+    TICKS = 15
     timer_value.config(text=str(TICKS))
     timer_func(TICKS)
 
 def timer_func(count_sec):
-    if count_sec >=0:
-        timer_value.config(text=f"{count_sec:02d}")
-        timer_value.after(1000, timer_func, count_sec - 1)
-    else:
-        timer_value.config(text=f"Score was:")
+    global timer
+    timer_value.config(text=f"{count_sec:02d}")
+
+    if count_sec >0:
+        timer = timer_value.after(1000, timer_func, count_sec - 1)
+    elif count_sec ==0:
+        word_count()
 
 #stop_func will stop the timer, call the word counter function
 def stop_func():
+    global timer
 
-    pass
+    if timer is not None:
+        timer_value.after_cancel(timer)
+        timer = None
+    timer_value.config(text="00")
+    word_count()
 
 #word counter function
 def word_count():
+    written_text = input.get()
+    word_count = 0
+    for word in written_text.split():
+        word_count += 1
 
-    pass
+    messagebox.showinfo("Word Count", f"You managed to enter: {word_count}")
+    timer_value.config(text=f"Score was: {word_count}")
+    timer_value.grid(row=4, column=0, pady=(10,0), columnspan=2)
+
 
 #-----------------------------------------------#
 
